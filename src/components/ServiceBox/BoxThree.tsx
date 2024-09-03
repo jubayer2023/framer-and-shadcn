@@ -2,7 +2,7 @@ import useScrollGrow from "@/hooks/ScrollGrowHook";
 import { motion } from "framer-motion";
 
 const BoxThree = () => {
-  const { componentRef, cardStyle } = useScrollGrow(1200);
+  const { componentRef, cardStyle } = useScrollGrow(600);
 
   return (
     <motion.div
